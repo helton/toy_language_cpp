@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1417983104 source:c:\users\helton\documents\codeblocksprojects\toy_language\language.cpp
+	<cstdlib>
+	"parser.hpp"
+
+1418068802 c:\users\helton\documents\codeblocksprojects\toy_language\token.hpp
+	"text_position.hpp"
+
+1417982574 c:\users\helton\documents\codeblocksprojects\toy_language\text_position.hpp
+	<string>
+
+1417983680 source:c:\users\helton\documents\codeblocksprojects\toy_language\token.cpp
+	"token.hpp"
+	<map>
+
+1418063890 c:\users\helton\documents\codeblocksprojects\toy_language\lexer.hpp
+	"token.hpp"
+	"matcher_function_builder.hpp"
+	<iostream>
+	<sstream>
+	<memory>
+	<vector>
+
+1417983734 c:\users\helton\documents\codeblocksprojects\toy_language\matcher_function_builder.hpp
+	<functional>
+
+1418069346 c:\users\helton\documents\codeblocksprojects\toy_language\parser.hpp
+	"lexer.hpp"
+	"ast.hpp"
+	<cstdlib>
+
+1418063739 source:c:\users\helton\documents\codeblocksprojects\toy_language\lexer.cpp
+	"lexer.hpp"
+
+1417983738 source:c:\users\helton\documents\codeblocksprojects\toy_language\matcher_function_builder.cpp
+	"matcher_function_builder.hpp"
+	<cctype>
+
+1418068824 source:c:\users\helton\documents\codeblocksprojects\toy_language\parser.cpp
+	"parser.hpp"
+
+1418069170 source:c:\users\helton\documents\codeblocksprojects\toy_language\main.cpp
+	<cstdlib>
+	"repl.hpp"
+
+1418068015 source:c:\users\helton\documents\codeblocksprojects\toy_language\ast.cpp
+	"ast.hpp"
+
+1418068793 c:\users\helton\documents\codeblocksprojects\toy_language\ast.hpp
+	<memory>
+	<vector>
+	"object.hpp"
+
+1418067961 c:\users\helton\documents\codeblocksprojects\toy_language\interpreter.hpp
+	"ast.hpp"
+	"object.hpp"
+	<memory>
+	<map>
+
+1418068717 source:c:\users\helton\documents\codeblocksprojects\toy_language\interpreter.cpp
+	"interpreter.hpp"
+	<memory>
+
+1418069156 c:\users\helton\documents\codeblocksprojects\toy_language\repl.hpp
+	<string>
+
+1418069108 source:c:\users\helton\documents\codeblocksprojects\toy_language\repl.cpp
+	"repl.hpp"
+	"parser.hpp"
+	"ast.hpp"
+	"interpreter.hpp"
+
+1418068916 c:\users\helton\documents\codeblocksprojects\toy_language\object.hpp
+
